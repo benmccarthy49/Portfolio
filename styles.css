@@ -1,7 +1,53 @@
 body{
     background-color: #21211f;
+    color: white;
 }
 
 #navbar{
-    background-color: red;
+    text-align: right;
+    margin: 0;
+    padding: 0;
+}
+
+#linkedIn-picture{
+    max-width: 20%;
+    height: auto;
+    padding: 12px;
+}
+
+#github-picture{
+    max-width: 20%;
+    height: auto;
+    padding: 12px;
+}
+
+.picture-container{
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    height: 50vh;
+    width: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 300px;
+}
+
+ol{
+    list-style-type: none;
+}
+
+li{
+    float: right;
+}
+
+li a{
+    color: white;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    padding: 14px 16px;
+}
+
+li a:hover{
+    transform: translateY(-2px);
 }
