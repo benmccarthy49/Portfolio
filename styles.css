@@ -12,14 +12,18 @@ body{
 .languages-container{
     display: flex;
     position: relative;
-    width: 50%;
+    width: 70%;
     height: 200px;
-    border: 2px solid red;
     flex-direction: column;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 2px;
+    border-bottom: 2px solid grey;
+    border-top: 2px solid grey;
 }
 
 #languages-header{
-    font-size: 14px;
+    font-size: 20px;
     position: absolute;
     left: 25px;
 }
@@ -68,10 +72,13 @@ li a{
     display: block;
     text-decoration: none;
     text-align: center;
-    padding: 14px 16px;
+    padding: 2px 16px;
 }
 
 li a:hover{
     transform: translateY(-2px);
-    color: lightblue;
+    border-bottom: 2px solid yellow;
+    border-radius: 8px;
+    border-bottom-right-radius: 2px;
+    border-bottom-left-radius: 2px;
 }
