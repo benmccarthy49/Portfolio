@@ -9,6 +9,29 @@ body{
     padding: 0;
 }
 
+.languages-container{
+    display: flex;
+    position: relative;
+    width: 50%;
+    height: 200px;
+    border: 2px solid red;
+    flex-direction: column;
+}
+
+#languages-header{
+    font-size: 14px;
+    position: absolute;
+    left: 25px;
+}
+
+#java-picture{
+    max-width: 10%;
+    height: auto;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+}
+
 #linkedIn-picture{
     max-width: 20%;
     height: auto;
@@ -50,4 +73,5 @@ li a{
 
 li a:hover{
     transform: translateY(-2px);
+    color: lightblue;
 }
