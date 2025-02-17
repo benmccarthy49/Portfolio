@@ -28,12 +28,63 @@ body{
     left: 25px;
 }
 
-#java-picture{
-    max-width: 10%;
-    height: auto;
+.language-images{
+    display: flex;
+    width: 80%;
+    height: 40px;
+    flex-direction: row;
     position: absolute;
-    right: 10px;
-    top: 50%;
+    top: 40px;
+    justify-content: space-evenly;
+    /* NEED TO CENTRE THE CONTAINER IN THE PARENT CONTAINER */
+}
+
+#python-picture{
+    max-width: 50%;
+    height: 50%;
+    top: 0px;
+} 
+
+#cpp-picture{
+    max-width: 50%;
+    height: 50%;
+    top: 0px;
+}
+
+#c-picture{
+    max-width: 50%;
+    height: 50%;
+    top: 0px;
+}
+
+#java-picture{
+    max-width: 50%;
+    height: 50%;
+    top: 0px;
+}
+
+#git-picture{
+    max-width: 50%;
+    height: 50%;
+    top: 0px;
+}
+
+#mysql-picture{
+    max-width: 50%;
+    height: 50%;
+    top: 0px;
+}
+
+#html-picture{
+    max-width: 50%;
+    height: 50%;
+    top: 0px;
+}
+
+#css-picture{
+    max-width: 50%;
+    height: 50%;
+    top: 0px;
 }
 
 #linkedIn-picture{
