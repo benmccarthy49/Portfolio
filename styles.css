@@ -121,12 +121,21 @@ li a{
     text-decoration: none;
     text-align: center;
     padding: 2px 16px;
+    position: relative;
 }
 
-li a:hover{
-    transform: translateY(-2px);
-    border-bottom: 2px solid yellow;
-    border-radius: 8px;
-    border-bottom-right-radius: 2px;
-    border-bottom-left-radius: 2px;
+li a::before{
+    content: '';
+    position: absolute;
+    left: 50%;
+    width: 80%;
+    bottom: 0;
+    height: 2px;
+    background-color: yellow;
+    transition: transform 300ms ease-in-out;
+    transform: translateX(-50%) scaleX(0);
+}
+
+li a:hover::before{
+    transform: translateX(-50%) scaleX(1);
 }
